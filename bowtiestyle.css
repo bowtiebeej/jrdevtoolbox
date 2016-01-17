@@ -27,12 +27,13 @@ header h3 {
 
 nav {
     vertical-align: bottom;
-    background: #33f;
+    background: #006;
     margin: 0;
 }
 
 nav ul {
     margin: 0;
+    padding: .5em 0;
 }
 
 nav ul li {
@@ -47,8 +48,24 @@ nav ul li {
 nav ul li a {
     margin: 0;
     text-decoration: none;
+    font-style: bold;
     color: #CED8F6;
     font-size: 1.5em;
+    padding: .5em;
+}
+
+nav a:hover {
+    background: #CED8F6;
+    color: #006;
+    border: #CED8F6;
+    border-radius: 15px 5px;
+}
+
+nave a:active {
+    background: #ccf;
+    color: #006;
+    border: #CED8F6;
+    border-radius: 15px 5px;
 }
 
 #content {
