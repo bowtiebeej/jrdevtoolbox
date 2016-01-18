@@ -61,6 +61,16 @@ header h3 {
     text-align: center;
 }
 
+body.home a.homenav,
+body.about a.aboutnav,
+body.blog a.blognav,
+body.tools a.toolsnav,
+body.learning a.learningnav {
+    background: #33f;
+    color: #006;
+    border-radius: 5px 15px;
+}
+
 #top-menu ul li a {
     margin: 0;
     text-decoration: none;
@@ -99,7 +109,7 @@ p {
 footer  {
     font-family:  monospace;
 	display: block;
-	background-color: #33a;
+	background-color: #006;
 	bottom: 0;
 	margin: 2em 0 0;
 	padding: 1em 2em 1em;
