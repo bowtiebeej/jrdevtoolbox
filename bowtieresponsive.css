@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px)
+{
+    #banner {
+        max-width: 100%;
+    }
+
+    nav ul {
+        height: auto;
+        text-align: justify;
+        -ms-text-jusitify: distribute-all-lines;
+        text-justify: distribure-all-lines;
+    }
+
+    nav li {
+        margin 0em .2em;
+        width: auto;
+        vertical-align: center;
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+    }
+}

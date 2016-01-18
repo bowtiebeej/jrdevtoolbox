@@ -1,10 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700|Bangers|Press+Start+2P|VT323);
+
 body {
 	margin: auto 0 auto;
     background: #ccf;
-
+    font-family: 'Vollkorn';
+    position: static;
 }
 
 header {
+    position: static;
+}
+
+
+#banner {
+    font-family: 'Press Start 2P';
     margin: 0;
     min-height: 300px;
     background: #33a url('waves-fractal-abstract-blue-header-1388.jpg') no-repeat fixed center top;
@@ -12,40 +21,47 @@ header {
     color: black;
     text-align: center;
     font-variant: small-caps;
+    position: static;
 }
 
 header h1 {
-    font-size: 3em;
-    margin-top: 0;
-    padding-top: 1.5em;
+    font-style: bold;
+    padding-top: 3em;
+    vertical-align: bottom;
 }
 
 header h3 {
-    font-size: 2em;
+    font-family: VT323;
+    font-style: bold;
+    font-size: 3em;
     color: #444;
 }
 
-nav {
+#top-menu {
     vertical-align: bottom;
     background: #006;
-    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Press Start 2P';
 }
 
-nav ul {
+#top-menu ul {
     margin: 0;
     padding: .5em 0;
 }
 
-nav ul li {
+#top-menu ul li {
 	list-style: none;
 	vertical-align: center;
 	line-height: 1;
     margin: .5em 1em;
 	text-decoration: none;
 	display: inline-block;
+    text-align: center;
 }
 
-nav ul li a {
+#top-menu ul li a {
     margin: 0;
     text-decoration: none;
     font-style: bold;
@@ -54,29 +70,34 @@ nav ul li a {
     padding: .5em;
 }
 
-nav a:hover {
+#top-menu a:hover {
     background: #CED8F6;
     color: #006;
     border: #CED8F6;
     border-radius: 15px 5px;
 }
 
-nave a:active {
+#top-menu a:active {
     background: #ccf;
     color: #006;
     border: #CED8F6;
     border-radius: 15px 5px;
 }
 
-#content {
-	margin: 2% 1%;
+h2 {
+    text-align: center;
+    font-family: 'VT323';
+    font-size: 3em;
 }
 
-#content p {
+
+p {
     padding: 0 2em;
+    font-size: medium;
 }
 
 footer  {
+    font-family:  monospace;
 	display: block;
 	background-color: #33a;
 	bottom: 0;
@@ -107,9 +128,9 @@ footer p {
 }
 
 .copyright a img {
-	vertical-align: bottom;
-	height: 20px;
-	width: 30px;
+	vertical-align: top;
+	height: 15px;
+	width: 25px;
 	background: none;
 }
 
