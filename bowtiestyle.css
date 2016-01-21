@@ -24,13 +24,13 @@ header {
     position: static;
 }
 
-header h1 {
+.banner h1 {
     font-style: bold;
     padding-top: 3em;
     vertical-align: bottom;
 }
 
-header h3 {
+.banner h3 {
     font-family: VT323;
     font-style: bold;
     font-size: 3em;
@@ -38,45 +38,31 @@ header h3 {
 }
 
 #top-menu {
-    vertical-align: bottom;
     background: #006;
-    padding: 5px 0;
-    text-align: center;
     font-variant: small-caps;
     font-family: 'Press Start 2P';
+    text-align: center;
 }
 
 #top-menu ul {
     margin: 0;
-    padding: .5em 0;
 }
 
 #top-menu ul li {
 	list-style: none;
-	vertical-align: center;
-	line-height: 1;
-    margin: .5em 1em;
+	vertical-align: btop;
+	line-height: 3;
 	text-decoration: none;
 	display: inline-block;
-    text-align: center;
-}
-
-body.home a.homenav,
-body.about a.aboutnav,
-body.blog a.blognav,
-body.tools a.toolsnav,
-body.learning a.learningnav {
-    background: #33f;
-    color: #006;
-    border-radius: 5px 15px;
 }
 
 #top-menu ul li a {
-    margin: 0;
     text-decoration: none;
     font-style: bold;
     color: #CED8F6;
     font-size: 1.5em;
+    text-align: center;
+    margin: 1em;
     padding: .5em;
 }
 
@@ -94,7 +80,17 @@ body.learning a.learningnav {
     border-radius: 15px 5px;
 }
 
-h2 {
+body.home a.homenav,
+body.about a.aboutnav,
+body.blog a.blognav,
+body.tools a.toolsnav,
+body.learning a.learningnav {
+    background: #33f;
+    color: #006;
+    border-radius: 5px 15px;
+}
+
+body h2 {
     text-align: center;
     font-family: 'VT323';
     font-size: 3em;
@@ -129,6 +125,7 @@ footer p {
 	float: left;
 	text-align: left;
 	width: 100%;
+    line-height: 1em;
 
 }
 
@@ -137,11 +134,18 @@ footer p {
     color: #CED8F6;
 }
 
-.copyright a img {
+.BTBlogo {
 	vertical-align: top;
 	height: 15px;
 	width: 25px;
 	background: none;
+}
+
+.CDPlogo {
+    vertical-align: bottom;
+    height: 20px;
+    width: 20px;
+    background: none;
 }
 
 .copyright a img:hover {
