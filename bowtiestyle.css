@@ -41,7 +41,7 @@ header {
     background: #006;
     font-variant: small-caps;
     font-family: 'Press Start 2P';
-    text-align: center;
+    text-align: left;
 }
 
 #top-menu ul {
@@ -63,7 +63,7 @@ header {
     font-size: 1.5em;
     text-align: center;
     margin: 1em;
-    padding: .5em;
+    padding: .5em .5em .5em;
 }
 
 #top-menu a:hover {
@@ -78,6 +78,18 @@ header {
     color: #006;
     border: #CED8F6;
     border-radius: 15px 5px;
+}
+
+.search {
+    /*position: fixed;*/
+    float: right;
+    text-align: right;
+    width: 20%;
+    height: 10%;
+}
+
+.comingsoon {
+    float: none;
 }
 
 body.home a.homenav,

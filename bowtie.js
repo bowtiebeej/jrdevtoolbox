@@ -17,8 +17,10 @@ function AirClear() {
 
     var menuMain = document.createElement("ul");
 
+    menuMain.className = "nav navbar-nav";
+
 //main navigation menu
-    menuMain.innerHTML = "\<li\>\<a class=\"homenav\" href=\"index.html\"\>Home\</a\>\</li\>                \<li\>\<a class=\"aboutnav\" href=\"about.html\"\>About\</a\>\</li\>                \<li\>\<a class=\"blognav\" href=\"blog.html\"\>Blog\</a\>\</li\>                \<li\>\<a class=\"toolsnav\" href=\"tools.html\"\>Tools\</a\>\</li\>                \<li\>\<a class=\"learningnav\" href=\"learning.html\"\>Learning\</a\>\</li\>"
+    menuMain.innerHTML = "\<li\>\<a class=\"homenav\" href=\"index.html\"\>Home\</a\>\</li\>                \<li\>\<a class=\"aboutnav\" href=\"about.html\"\>About\</a\>\</li\>                \<li\>\<a class=\"blognav\" href=\"blog.html\"\>Blog\</a\>\</li\>                \<li\>\<a class=\"toolsnav\" href=\"tools.html\"\>Tools\</a\>\</li\>                \<li\>\<a class=\"learningnav\" href=\"learning.html\"\>Learning\</a\>\<\/li\>\<li class=\"search\"\>\<gcse:search\>\<\/gcse:search\>\<\/li\>";
 
     document.getElementById("top-menu").appendChild(menuMain);
 
